@@ -24,12 +24,12 @@ elements
 /*
 * Copy assignment operator
 */
-    ArrayList<T>& operator =(const ArrayList <T>& a);
+    ArrayList<T>& operator =(const ArrayList<T>& a);
 
 /*
 * Move assignment operator
 */
-    ArrayList<T>& operator =( ArrayList <T>&& a);
+    ArrayList<T>& operator =(ArrayList<T>&& a);
 
 
 /*
