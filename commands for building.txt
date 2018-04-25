@@ -1,0 +1,7 @@
+Commands
+
+node hello-world.js //opens server
+
+node-gyp configure //configures for build
+
+node-gyp build //makes the .node file as an extension
