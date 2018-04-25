@@ -1,35 +1,18 @@
 const addon = require('./build/Release/addon');
-require('./src/');
 console.log(addon.hello());
 
-const http = require('http');
+var express = require('express');
+var app = express();
 
-const hostname = '127.0.0.1';
-const port = 3000;
+app.use(express.static('public'));
 
-var fs = require('fs'), server, html;
-fs.readFile('./templates/index.html', function(err, load)
-{
-	html = load;
-});
+app.get('/', function (req, res) {
+   res.sendFile('index.html', {root: __dirname + "/public/templates/"});
+})
 
-server = http.createServer((req, res) => 
-{
-	res.writeHeader(200, {"Content-Type": "text/html"});
-	res.write(html);
-	res.end();
-});
-
-server.listen(port, hostname, () => 
-{
-	console.log(`Server running at http://${hostname}:${port}/`);
-});
-
-
-
-
-
-
-
-
-
+var server = app.listen(8081, function () {
+   var host = server.address().address
+   var port = server.address().port
+   
+   console.log("Example app listening at http://%s:%s", host, port);
+})
