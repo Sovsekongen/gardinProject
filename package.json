@@ -1,0 +1,19 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "New project",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sovsekongen/gardinProject.git"
+  },
+  "author": "Viktor Poulsen vikpo@live.dk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sovsekongen/gardinProject/issues"
+  },
+  "homepage": "https://github.com/Sovsekongen/gardinProject#readme"
+}
