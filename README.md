@@ -14,3 +14,19 @@ Version 2
 Version 3
 - Import local area video-feed from a camera to determine outside weather.
 - Import daily schedule from google calendar and post on the webside.
+
+Version 4
+- Add light control to the entire flat
+	- CSS
+	- C++
+	- Javascript
+	- HTML
+
+Version 5
+	- Add sensors to humidty
+	- Temperature sensor to inside and outside of the flat
+	
+	
+Version ...?
+	- Make controls to turn on the heat in the flat and monitor the temperature.
+	- Add security cameras and input feed.
