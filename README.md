@@ -2,8 +2,11 @@ Version 1
 - Import custom HTML, CSS and Javascript.
 	- HTML - DONE
 	- Javascript - DONE
-	- CSS - NOT STARTED
+	- CSS - DONE
 - Send command to c++, that makes the curtains move up or down, from buttons - IN PROGRESS
+	- Receive commands from browser in C++. - DONE
+	- Send bluetooth signal to Arduino.
+	- Program Arduino to send proper output voltage and current to motor.
 
 Version 2
 - Import weather from DMI feed, daily update for area each morning.
@@ -12,6 +15,7 @@ Version 2
 	- Add variable box (0-100) to determine how much the curtain is rolled up or down, where 0 is fully open and 100 is fully closed.
 
 Version 3
+- Make mobilefriendly HTML and CSS.
 - Import local area video-feed from a camera to determine outside weather.
 - Import daily schedule from google calendar and post on the webside.
 

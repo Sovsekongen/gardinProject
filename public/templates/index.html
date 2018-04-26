@@ -3,18 +3,32 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hjemmeside?</title>
-		
+		<link rel="stylesheet" type="text/css" href="../styles/sheet1.css">
 	</head>
-	<body style="background-color:MediumSeaGreen" id="test">
-		<select name="select1" value="200">
-  			<Option value ="4" name="text1">text</Option>
-  			<Option value ="5" name="text12">Display</Option>
-		</select>
-		<p>
-		Her står der noget text. Wuuu.
-		</p>
-
-		<button type="button" onclick="changeColor()">Click Me!</button>
-		<script src="../src/funcs.js"></script>
+	<body id="test">
+		<div class="row div1">
+			<div class="column div2">
+				<h1>
+					Current status: 
+					<img class="picOpenClose" src="../images/curtainsOpen.png" id="openClose"> 
+				</h1>
+				<p id="paragraphC1">
+					<button class="button button1" name="Open Button" onclick="curtainControl('open')" id="buttonClose">Open Curtains</button>
+					<br>
+					<button class="button button1" name="Close Button" onclick="curtainControl('close')" id="buttonClose">Close Curtains</button>
+				</p>
+			</div>
+			<div class="column div2">
+				<p id="paragraphC2">
+					To be implemented (Lightcontrols)
+				</p>
+			</div>
+			<div class="column div2">
+				<p id="paragraphC3">
+					To be implemented (Weather and website config)
+				</p>
+			</div>
+		</div>
+		<script src="../src/client/funcs.js"></script>
 	</body>
 </html>

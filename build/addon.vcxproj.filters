@@ -4,6 +4,9 @@
     <Filter Include="..">
       <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="..\gardinProject">
+      <UniqueIdentifier>{80A008E5-81F5-6CA0-45FC-7E1CA3DF3220}</UniqueIdentifier>
+    </Filter>
     <Filter Include="C:">
       <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
     </Filter>
@@ -36,8 +39,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\helloWorld.cpp">
-      <Filter>..</Filter>
+    <ClCompile Include="..\gardinProject\curtaincontrol.cpp">
+      <Filter>..\gardinProject</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\vikpo\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">
       <Filter>C:\Users\vikpo\AppData\Roaming\npm\node_modules\node-gyp\src</Filter>
