@@ -3,7 +3,8 @@
     {
       "target_name": "addon",
 	  "include-dirs": [
-			"gardinProject/*"
+			"gardinProject/*",
+			"C:\Users\vikpo\AppData\Local\Programs\Python\Python36\include"
 	  ],
       "sources": [  
 			"gardinProject/curtaincontrol.cpp"],

@@ -1,6 +1,8 @@
 #include <node.h>
 #include <v8.h>
 #include <iostream>
+#include <fstream>
+#include <Python.h>
 
 namespace demo
 {
@@ -12,51 +14,59 @@ using v8::Local;
 using v8::Object;
 using v8::String;
 using v8::Value;
-using v8::Boolean;
+using v8::Boolean; 
+
+char openCom[10] = "Open";
+char closeCom[10] = "Close";
+
+std::ofstream myFile;
+
+void writeMessege(char command[5])
+{
+    myFile.open("example.txt");
+    myFile.write(command, 5);
+    myFile.close();
+}
+
+void callPythonScript()
+{
+    std::string filename = "../../hello-world.py";
+    std::string command = "python ";
+    std::cout << "tried printing python string" << std::endl;
+    command += filename;
+    system(command.c_str());
+}
 
 void closeCurtain(const FunctionCallbackInfo<Value>& args)
 {
     Isolate* isolate = args.GetIsolate();
-    Local<Boolean> retval = Boolean::New(isolate, true);
+    Local<Boolean> retval = Boolean::New(isolate, false);
 
-    demo::curtainCommand = "Close";
     args.GetReturnValue().Set(retval);
+    writeMessege(demo::closeCom);
+    callPythonScript();
 }
 
 void openCurtain(const FunctionCallbackInfo<Value>& args)
 {
+
     Isolate* isolate = args.GetIsolate();
     Local<Boolean> retval = Boolean::New(isolate, true);
 
-    demo::curtainCommand = "Open";
     args.GetReturnValue().Set(retval);
+    writeMessege(demo::openCom);
+    callPythonScript();
 }
+
+
 
 void init(Local<Object> exports)
 {
     NODE_SET_METHOD(exports, "close", closeCurtain);
     NODE_SET_METHOD(exports, "open", openCurtain);
 }
+
 NODE_MODULE(addon, init)
-}
-
-int main()
-{
-
-    while(true)
-    {
-        if(demo::curtainCommand == "Close")
-        {
-            std::cout << "Received close command: " << std::endl;
-            demo::curtainCommand = "static";
-        }
-        else
-        {
-            std::cout << "Received open command: " << std::endl;
-            demo::curtainCommand = "static";
-        }
-    }
-    return 0;
 }
 
 

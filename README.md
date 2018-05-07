@@ -14,6 +14,7 @@ Version 2
 	- Seven week cast in table?
 - Make slider for optimized control of curtains
 	- Add variable box (0-100) to determine how much the curtain is rolled up or down, where 0 is fully open and 100 is fully closed.
+- Add controls to control webpage layout.
 
 Version 3
 - Import local area video-feed from a camera to determine outside weather.

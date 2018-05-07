@@ -1,0 +1,43 @@
+@media screen and (max-width: 1050px) {
+    .column {
+    width: 100%;
+		margin: 0%;
+		margin-bottom: 10%;
+    }
+
+	.div1{
+		width: 80%;
+		margin: 10%;
+	}
+
+	.div2{
+		width: 100%;
+	}
+
+	p {
+		width: 100%;
+		margin: 0%;
+	}
+}
+
+@media screen and (max-height: 800px) {
+	.column {
+    height: 100%;
+		padding: 0%;
+    }
+
+	.div1{
+		height: 400px;
+		margin-top: 50px;
+	}
+
+	.div2{
+		height: 650px;
+	}
+}
+
+@media screen and (max-height: 800px) and (max-width: 1050px) {
+	.column {
+		padding: 10%;
+    }
+}

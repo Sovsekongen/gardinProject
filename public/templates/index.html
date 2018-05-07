@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Hjemmeside?</title>
-		<link rel="stylesheet" type="text/css" href="../styles/sheet1.css">
-	</head>
-	<body id="test">
-		<div class="row div1">
-			<div class="column div2">
-				<h1>
-					Current status: 
-					<img class="picOpenClose" src="../images/curtainsOpen.png" id="openClose"> 
-				</h1>
-				<p id="paragraphC1">
-					<button class="button button1" name="Open Button" onclick="curtainControl('open')" id="buttonClose">Open Curtains</button>
-					<br>
-					<button class="button button1" name="Close Button" onclick="curtainControl('close')" id="buttonClose">Close Curtains</button>
-				</p>
-			</div>
-			<div class="column div2">
-				<p id="paragraphC2">
-					To be implemented (Lightcontrols)
-				</p>
-			</div>
-			<div class="column div2">
-				<p id="paragraphC3">
-					To be implemented (Weather and website config)
-				</p>
-			</div>
-		</div>
-		<script src="../src/client/funcs.js"></script>
-	</body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hjemmeside?</title>
+  <link rel="stylesheet" type="text/css" href="../styles/sheet1.css">
+  <link rel="stylesheet" type="text/css" href="../styles/mediaScreen.css">
+  <link rel="shortcut icon" type="image/x-icon" href="../images/favicon-96x96.png">
+</head>
+
+<body id="test">
+  <div class="row div1">
+    <div class="column div2">
+      <p>
+        Current status:
+        <img class="picOpenClose" src="../images/curtainsOpen.png" id="openClose">
+      </p>
+      <p id="paragraphC1">
+        <button class="button button1" name="Open Button" onclick="curtainControl('open')" id="buttonClose">Open Curtains</button>
+        <br>
+        <button class="button button1" name="Close Button" onclick="curtainControl('close')" id="buttonClose">Close Curtains</button>
+        <br>
+      </p>
+    </div>
+    <div class="column div2">
+      <p id="paragraphC2">
+        To be implemented (Lightcontrols)
+      </p>
+    </div>
+    <div class="column div2" id="column3">
+      <div class="topnav">
+        <a class="active" href="#weather" id="weatherTab" onclick="changeClassMenu('weatherTab', 'settingsTab')">Weather</a>
+        <a href="#settings" id="settingsTab" onclick="changeClassMenu('weatherTab', 'settingsTab')">Settings</a>
+      </div>
+      <p id="paragraphC3Weather">
+        Weather
+      </p>
+      <p id="paragraphC3settings" style="display:none">
+        Settings
+      </p>
+    </div>
+  </div>
+  <script src="../src/client/funcs.js"></script>
+</body>
+
 </html>
