@@ -2,7 +2,6 @@
 #include <v8.h>
 #include <iostream>
 #include <fstream>
-#include <Python.h>
 
 namespace demo
 {
@@ -30,7 +29,7 @@ void writeMessege(char command[5])
 
 void callPythonScript()
 {
-    std::string filename = "../../hello-world.py";
+    std::string filename = "./hello-world.py";
     std::string command = "python ";
     std::cout << "tried printing python string" << std::endl;
     command += filename;

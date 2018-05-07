@@ -1,6 +1,6 @@
  addon
 
- Timestamp is 5aead0b4 (Thu May  3 11:04:52 2018)
+ Timestamp is 5af0563e (Mon May  7 15:35:58 2018)
 
  Preferred load address is 0000000180000000
 
@@ -73,15 +73,15 @@
  0000:00000000       __ImageBase                0000000180000000     <linker-defined>
  0001:00000180       ?what@exception@stdext@@UEBAPEBDXZ 0000000180001180 f i curtaincontrol.obj
  0001:000001a0       ?_Raise@exception@stdext@@QEBAXXZ 00000001800011a0 f i curtaincontrol.obj
- 0001:000001e0       ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ 00000001800011e0 f i curtaincontrol.obj
- 0001:000001e0       ?_Doraise@exception@stdext@@MEBAXXZ 00000001800011e0 f i curtaincontrol.obj
  0001:000001e0       _guard_check_icall_nop     00000001800011e0 f i LIBCMT:guard_support.obj
+ 0001:000001e0       ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ 00000001800011e0 f i curtaincontrol.obj
  0001:000001e0       ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ 00000001800011e0 f i curtaincontrol.obj
+ 0001:000001e0       ?_Doraise@exception@stdext@@MEBAXXZ 00000001800011e0 f i curtaincontrol.obj
  0001:000001e0       ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z 00000001800011e0 f i curtaincontrol.obj
- 0001:000001f0       ??_Eruntime_error@std@@UEAAPEAXI@Z 00000001800011f0 f i * CIL library *:* CIL module *
- 0001:000001f0       ??_Gexception@stdext@@UEAAPEAXI@Z 00000001800011f0 f i curtaincontrol.obj
  0001:000001f0       ??_Eexception@stdext@@UEAAPEAXI@Z 00000001800011f0 f i * CIL library *:* CIL module *
  0001:000001f0       ??_Gruntime_error@std@@UEAAPEAXI@Z 00000001800011f0 f i curtaincontrol.obj
+ 0001:000001f0       ??_Gexception@stdext@@UEAAPEAXI@Z 00000001800011f0 f i curtaincontrol.obj
+ 0001:000001f0       ??_Eruntime_error@std@@UEAAPEAXI@Z 00000001800011f0 f i * CIL library *:* CIL module *
  0001:00000220       ??0runtime_error@std@@QEAA@PEBD@Z 0000000180001220 f i curtaincontrol.obj
  0001:00000240       ?NODE_SET_METHOD@node@@YAXV?$Local@VObject@v8@@@v8@@PEBDP6AXAEBV?$FunctionCallbackInfo@VValue@v8@@@3@@Z@Z 0000000180001240 f i curtaincontrol.obj
  0001:00000310       ??1_Locinfo@std@@QEAA@XZ   0000000180001310 f i curtaincontrol.obj
@@ -90,9 +90,9 @@
  0001:000003e0       ?_Incref@facet@locale@std@@UEAAXXZ 00000001800013e0 f i curtaincontrol.obj
  0001:000003f0       ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ 00000001800013f0 f i curtaincontrol.obj
  0001:00000400       DllMain                    0000000180001400 f i LIBCMT:dll_dllmain_stub.obj
- 0001:00000400       ?do_encoding@codecvt_base@std@@MEBAHXZ 0000000180001400 f i curtaincontrol.obj
- 0001:00000400       ?do_max_length@codecvt_base@std@@MEBAHXZ 0000000180001400 f i curtaincontrol.obj
  0001:00000400       _get_startup_argv_mode     0000000180001400 f i LIBCMT:argv_mode.obj
+ 0001:00000400       ?do_max_length@codecvt_base@std@@MEBAHXZ 0000000180001400 f i curtaincontrol.obj
+ 0001:00000400       ?do_encoding@codecvt_base@std@@MEBAHXZ 0000000180001400 f i curtaincontrol.obj
  0001:00000410       ?do_tolower@?$ctype@D@std@@MEBADD@Z 0000000180001410 f i curtaincontrol.obj
  0001:00000420       ?do_tolower@?$ctype@D@std@@MEBAPEBDPEADPEBD@Z 0000000180001420 f i curtaincontrol.obj
  0001:00000480       ?do_toupper@?$ctype@D@std@@MEBADD@Z 0000000180001480 f i curtaincontrol.obj
@@ -103,25 +103,25 @@
  0001:00000520       ?do_narrow@?$ctype@D@std@@MEBAPEBDPEBD0DPEAD@Z 0000000180001520 f i curtaincontrol.obj
  0001:00000540       ??_E?$ctype@D@std@@MEAAPEAXI@Z 0000000180001540 f i * CIL library *:* CIL module *
  0001:00000540       ??_G?$ctype@D@std@@MEAAPEAXI@Z 0000000180001540 f i curtaincontrol.obj
- 0001:000005b0       ??_Gerror_category@std@@UEAAPEAXI@Z 00000001800015b0 f i curtaincontrol.obj
  0001:000005b0       ??_E_Iostream_error_category@std@@UEAAPEAXI@Z 00000001800015b0 f i * CIL library *:* CIL module *
  0001:000005b0       ??_Eerror_category@std@@UEAAPEAXI@Z 00000001800015b0 f i * CIL library *:* CIL module *
  0001:000005b0       ??_G_Iostream_error_category@std@@UEAAPEAXI@Z 00000001800015b0 f i curtaincontrol.obj
+ 0001:000005b0       ??_Gerror_category@std@@UEAAPEAXI@Z 00000001800015b0 f i curtaincontrol.obj
  0001:000005e0       ?default_error_condition@error_category@std@@UEBA?AVerror_condition@2@H@Z 00000001800015e0 f i curtaincontrol.obj
  0001:000005f0       ?equivalent@error_category@std@@UEBA_NHAEBVerror_condition@2@@Z 00000001800015f0 f i curtaincontrol.obj
  0001:00000650       ?equivalent@error_category@std@@UEBA_NAEBVerror_code@2@H@Z 0000000180001650 f i curtaincontrol.obj
  0001:00000670       ?make_error_code@std@@YA?AVerror_code@1@W4io_errc@1@@Z 0000000180001670 f i curtaincontrol.obj
  0001:000006c0       ?_Makestr@_System_error@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@V32@@Z 00000001800016c0 f i curtaincontrol.obj
  0001:00000890       ??0_System_error@std@@IEAA@Verror_code@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 0000000180001890 f i curtaincontrol.obj
- 0001:00000a20       ??_E_System_error@std@@UEAAPEAXI@Z 0000000180001a20 f i * CIL library *:* CIL module *
  0001:00000a20       ??_G_System_error@std@@UEAAPEAXI@Z 0000000180001a20 f i curtaincontrol.obj
- 0001:00000a20       ??_Efailure@ios_base@std@@UEAAPEAXI@Z 0000000180001a20 f i * CIL library *:* CIL module *
  0001:00000a20       ??_Gfailure@ios_base@std@@UEAAPEAXI@Z 0000000180001a20 f i curtaincontrol.obj
+ 0001:00000a20       ??_Efailure@ios_base@std@@UEAAPEAXI@Z 0000000180001a20 f i * CIL library *:* CIL module *
+ 0001:00000a20       ??_E_System_error@std@@UEAAPEAXI@Z 0000000180001a20 f i * CIL library *:* CIL module *
  0001:00000a50       ?name@_Iostream_error_category@std@@UEBAPEBDXZ 0000000180001a50 f i curtaincontrol.obj
  0001:00000a60       ?message@_Iostream_error_category@std@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z 0000000180001a60 f i curtaincontrol.obj
  0001:00000ae0       ??0failure@ios_base@std@@QEAA@PEBDAEBVerror_code@2@@Z 0000000180001ae0 f i curtaincontrol.obj
- 0001:00000bd0       ??_Gios_base@std@@UEAAPEAXI@Z 0000000180001bd0 f i curtaincontrol.obj
  0001:00000bd0       ??_Eios_base@std@@UEAAPEAXI@Z 0000000180001bd0 f i * CIL library *:* CIL module *
+ 0001:00000bd0       ??_Gios_base@std@@UEAAPEAXI@Z 0000000180001bd0 f i curtaincontrol.obj
  0001:00000c10       ??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QEAAXXZ 0000000180001c10 f i curtaincontrol.obj
  0001:00000ca0       ?writeMessege@demo@@YAXQEAD@Z 0000000180001ca0 f   curtaincontrol.obj
  0001:00000d90       ?callPythonScript@demo@@YAXXZ 0000000180001d90 f   curtaincontrol.obj
@@ -143,32 +143,32 @@
  0001:00001fc0       ?_Lock@?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAXXZ 0000000180002fc0 f i curtaincontrol.obj
  0001:00001fe0       ??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAA@XZ 0000000180002fe0 f i curtaincontrol.obj
  0001:00002090       ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z 0000000180003090 f i curtaincontrol.obj
- 0001:000023d0       ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ 00000001800033d0 f i curtaincontrol.obj
  0001:000023d0       ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ 00000001800033d0 f i curtaincontrol.obj
+ 0001:000023d0       ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ 00000001800033d0 f i curtaincontrol.obj
  0001:000023e0       ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z 00000001800033e0 f i curtaincontrol.obj
- 0001:000023f0       ?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z 00000001800033f0 f i curtaincontrol.obj
  0001:000023f0       ?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z 00000001800033f0 f i curtaincontrol.obj
+ 0001:000023f0       ?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z 00000001800033f0 f i curtaincontrol.obj
  0001:00002410       ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z 0000000180003410 f i curtaincontrol.obj
  0001:000024e0       ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z 00000001800034e0 f i curtaincontrol.obj
  0001:000025a0       ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ 00000001800035a0 f i curtaincontrol.obj
+ 0001:000025e0       ?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z 00000001800035e0 f i curtaincontrol.obj
  0001:000025e0       ?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z 00000001800035e0 f i curtaincontrol.obj
  0001:000025e0       ?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ 00000001800035e0 f i curtaincontrol.obj
- 0001:000025e0       ?overflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z 00000001800035e0 f i curtaincontrol.obj
- 0001:000025f0       ??_E?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 00000001800035f0 f i * CIL library *:* CIL module *
  0001:000025f0       ??_G?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 00000001800035f0 f i curtaincontrol.obj
- 0001:00002630       ??_E?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 0000000180003630 f i * CIL library *:* CIL module *
+ 0001:000025f0       ??_E?$basic_ofstream@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 00000001800035f0 f i * CIL library *:* CIL module *
  0001:00002630       ??_G?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 0000000180003630 f i curtaincontrol.obj
- 0001:00002670       ??_E?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 0000000180003670 f i * CIL library *:* CIL module *
+ 0001:00002630       ??_E?$basic_filebuf@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 0000000180003630 f i * CIL library *:* CIL module *
  0001:00002670       ??_G?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 0000000180003670 f i curtaincontrol.obj
+ 0001:00002670       ??_E?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 0000000180003670 f i * CIL library *:* CIL module *
  0001:000026e0       ??_E?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 00000001800036e0 f i * CIL library *:* CIL module *
  0001:000026e0       ??_G?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 00000001800036e0 f i curtaincontrol.obj
  0001:00002760       ??_Glocale@std@@QEAAPEAXI@Z 0000000180003760 f i curtaincontrol.obj
- 0001:000027c0       ??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 00000001800037c0 f i curtaincontrol.obj
  0001:000027c0       ??_E?$basic_ios@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 00000001800037c0 f i * CIL library *:* CIL module *
+ 0001:000027c0       ??_G?$basic_ios@DU?$char_traits@D@std@@@std@@UEAAPEAXI@Z 00000001800037c0 f i curtaincontrol.obj
  0001:00002800       ?do_length@?$codecvt@DDU_Mbstatet@@@std@@MEBAHAEAU_Mbstatet@@PEBD1_K@Z 0000000180003800 f i curtaincontrol.obj
  0001:00002820       ?do_unshift@?$codecvt@DDU_Mbstatet@@@std@@MEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z 0000000180003820 f i curtaincontrol.obj
- 0001:00002830       ?do_out@?$codecvt@DDU_Mbstatet@@@std@@MEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z 0000000180003830 f i curtaincontrol.obj
  0001:00002830       ?do_in@?$codecvt@DDU_Mbstatet@@@std@@MEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z 0000000180003830 f i curtaincontrol.obj
+ 0001:00002830       ?do_out@?$codecvt@DDU_Mbstatet@@@std@@MEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z 0000000180003830 f i curtaincontrol.obj
  0001:00002850       ?do_always_noconv@?$codecvt@DDU_Mbstatet@@@std@@MEBA_NXZ 0000000180003850 f i curtaincontrol.obj
  0001:00002850       __acrt_uninitialize_command_line 0000000180003850 f i libucrt:argv_data.obj
  0001:00002860       ??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@AEAV12@@Z 0000000180003860 f i curtaincontrol.obj
@@ -181,8 +181,8 @@
  0001:00002e40       ?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IEAAXPEAU_iobuf@@W4_Initfl@12@@Z 0000000180003e40 f i curtaincontrol.obj
  0001:00002f30       ?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QEAAPEAV12@XZ 0000000180003f30 f i curtaincontrol.obj
  0001:00003000       ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z 0000000180004000 f i curtaincontrol.obj
- 0001:00003180       ??_E?$codecvt@DDU_Mbstatet@@@std@@MEAAPEAXI@Z 0000000180004180 f i * CIL library *:* CIL module *
  0001:00003180       ??_G?$codecvt@DDU_Mbstatet@@@std@@MEAAPEAXI@Z 0000000180004180 f i curtaincontrol.obj
+ 0001:00003180       ??_E?$codecvt@DDU_Mbstatet@@@std@@MEAAPEAXI@Z 0000000180004180 f i * CIL library *:* CIL module *
  0001:000031b0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z 00000001800041b0 f i curtaincontrol.obj
  0001:00003310       ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ 0000000180004310 f i curtaincontrol.obj
  0001:00003510       ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ 0000000180004510 f i curtaincontrol.obj
@@ -211,25 +211,25 @@
  0001:0000463c       ??1_Init_locks@std@@QEAA@XZ 000000018000563c f   libcpmt:xlock.obj
  0001:00004680       ??1_Lockit@std@@QEAA@XZ    0000000180005680 f   libcpmt:xlock.obj
  0001:000046b4       ??0exception@std@@QEAA@AEBV01@@Z 00000001800056b4 f i libcpmt:xonce.obj
- 0001:000046ec       ??_Ebad_array_new_length@std@@UEAAPEAXI@Z 00000001800056ec f i LIBCMT:throw_bad_alloc.obj
  0001:000046ec       ??_Glength_error@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
- 0001:000046ec       ??_Eexception@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xonce.obj
- 0001:000046ec       ??_Glogic_error@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
- 0001:000046ec       ??_Gbad_array_new_length@std@@UEAAPEAXI@Z 00000001800056ec f i LIBCMT:throw_bad_alloc.obj
- 0001:000046ec       ??_Ebad_alloc@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
  0001:000046ec       ??_Ebad_exception@std@@UEAAPEAXI@Z 00000001800056ec f i libvcruntime:frame.obj
- 0001:000046ec       ??_Elength_error@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
- 0001:000046ec       ??_Gbad_alloc@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
- 0001:000046ec       ??_Gexception@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xonce.obj
+ 0001:000046ec       ??_Eexception@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xonce.obj
  0001:000046ec       ??_Elogic_error@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
+ 0001:000046ec       ??_Glogic_error@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
+ 0001:000046ec       ??_Elength_error@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
+ 0001:000046ec       ??_Gbad_array_new_length@std@@UEAAPEAXI@Z 00000001800056ec f i LIBCMT:throw_bad_alloc.obj
+ 0001:000046ec       ??_Gexception@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xonce.obj
  0001:000046ec       ??_Gbad_exception@std@@UEAAPEAXI@Z 00000001800056ec f i libvcruntime:frame.obj
+ 0001:000046ec       ??_Ebad_array_new_length@std@@UEAAPEAXI@Z 00000001800056ec f i LIBCMT:throw_bad_alloc.obj
+ 0001:000046ec       ??_Ebad_alloc@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
+ 0001:000046ec       ??_Gbad_alloc@std@@UEAAPEAXI@Z 00000001800056ec f i libcpmt:xthrow.obj
  0001:00004730       ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z 0000000180005730 f   libcpmt:xonce.obj
  0001:00004738       ?what@exception@std@@UEBAPEBDXZ 0000000180005738 f i libcpmt:xonce.obj
  0001:0000474c       ??0_Init_cout@std@@QEAA@XZ 000000018000574c f i libcpmt:cout.obj
  0001:000047b8       ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z 00000001800057b8 f i libcpmt:locale0.obj
  0001:00004830       ??_G_Fac_node@std@@QEAAPEAXI@Z 0000000180005830 f i libcpmt:locale0.obj
- 0001:000048bc       ??_G_Locimp@locale@std@@MEAAPEAXI@Z 00000001800058bc f i libcpmt:locale0.obj
  0001:000048bc       ??_E_Locimp@locale@std@@MEAAPEAXI@Z 00000001800058bc f i libcpmt:locale0.obj
+ 0001:000048bc       ??_G_Locimp@locale@std@@MEAAPEAXI@Z 00000001800058bc f i libcpmt:locale0.obj
  0001:00004928       ?_Facet_Register@std@@YAXPEAV_Facet_base@1@@Z 0000000180005928 f   libcpmt:locale0.obj
  0001:00004960       ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ 0000000180005960 f   libcpmt:locale0.obj
  0001:00004968       ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z 0000000180005968 f   libcpmt:locale0.obj
@@ -285,16 +285,16 @@
  0001:0000627c       __scrt_uninitialize_crt    000000018000727c f   LIBCMT:utility.obj
  0001:000062a8       _onexit                    00000001800072a8 f   LIBCMT:utility.obj
  0001:000062f8       atexit                     00000001800072f8 f   LIBCMT:utility.obj
- 0001:00006310       ??3@YAXPEAX_K@Z            0000000180007310 f   LIBCMT:delete_scalar_size.obj
  0001:00006310       ??_V@YAXPEAX@Z             0000000180007310 f   LIBCMT:delete_array.obj
+ 0001:00006310       ??3@YAXPEAX_K@Z            0000000180007310 f   LIBCMT:delete_scalar_size.obj
  0001:0000665c       _DllMainCRTStartup         000000018000765c f   LIBCMT:dll_dllmain.obj
  0001:0000669c       __GSHandlerCheck           000000018000769c f   LIBCMT:_gshandler_.obj
  0001:000066bc       __GSHandlerCheckCommon     00000001800076bc f   LIBCMT:_gshandler_.obj
  0001:00006718       _guard_check_icall         0000000180007718 f i LIBCMT:checkcfg.obj
- 0001:00006720       ??_Gtype_info@@UEAAPEAXI@Z 0000000180007720 f i LIBCMT:std_type_info_static.obj
  0001:00006720       ??_Etype_info@@UEAAPEAXI@Z 0000000180007720 f i LIBCMT:std_type_info_static.obj
- 0001:00006760       __chkstk                   0000000180007760 f   LIBCMT:_chkstk_.obj
+ 0001:00006720       ??_Gtype_info@@UEAAPEAXI@Z 0000000180007720 f i LIBCMT:std_type_info_static.obj
  0001:00006760       _alloca_probe              0000000180007760 f   LIBCMT:_chkstk_.obj
+ 0001:00006760       __chkstk                   0000000180007760 f   LIBCMT:_chkstk_.obj
  0001:000067b4       __raise_securityfailure    00000001800077b4 f   LIBCMT:gs_report.obj
  0001:000067e8       __report_gsfailure         00000001800077e8 f   LIBCMT:gs_report.obj
  0001:000068bc       __report_rangecheckfailure 00000001800078bc f   LIBCMT:gs_report.obj
@@ -315,8 +315,8 @@
  0001:00006ee4       __scrt_get_dyn_tls_init_callback 0000000180007ee4 f   LIBCMT:dyn_tls_init.obj
  0001:00006eec       _RTC_Initialize            0000000180007eec f   LIBCMT:_initsect_.obj
  0001:00006f38       _RTC_Terminate             0000000180007f38 f   LIBCMT:_initsect_.obj
- 0001:00006fa0       memcpy                     0000000180007fa0 f   libvcruntime:memcpy.obj
  0001:00006fa0       memmove                    0000000180007fa0 f   libvcruntime:memcpy.obj
+ 0001:00006fa0       memcpy                     0000000180007fa0 f   libvcruntime:memcpy.obj
  0001:000073e8       _purecall                  00000001800083e8 f   libvcruntime:purevirt.obj
  0001:00007420       __std_exception_copy       0000000180008420 f   libvcruntime:std_exception.obj
  0001:000074b0       __std_exception_destroy    00000001800084b0 f   libvcruntime:std_exception.obj
@@ -1364,8 +1364,8 @@
  0002:00004f10       ??_C@_1M@MBFDNDND@?$AAz?$AAh?$AA?9?$AAs?$AAg?$AA?$AA@ 0000000180027f10     libcpmt:winapinls.obj
  0002:00004f20       ??_C@_1M@IMEPLEPE@?$AAz?$AAh?$AA?9?$AAt?$AAw?$AA?$AA@ 0000000180027f20     libcpmt:winapinls.obj
  0002:00004f30       ??_C@_1M@BBGHNHJP@?$AAz?$AAu?$AA?9?$AAz?$AAa?$AA?$AA@ 0000000180027f30     libcpmt:winapinls.obj
- 0002:00004f40       _pRawDllMain               0000000180027f40     LIBCMT:dll_dllmain.obj
  0002:00004f40       _pDefaultRawDllMain        0000000180027f40     LIBCMT:dll_dllmain.obj
+ 0002:00004f40       _pRawDllMain               0000000180027f40     LIBCMT:dll_dllmain.obj
  0002:00004f50       ??_7type_info@@6B@         0000000180027f50     LIBCMT:std_type_info_static.obj
  0002:00004f70       ??_7bad_array_new_length@std@@6B@ 0000000180027f70     LIBCMT:throw_bad_alloc.obj
  0002:00004f80       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length?$AA@ 0000000180027f80     LIBCMT:throw_bad_alloc.obj
@@ -1731,7 +1731,7 @@
  0002:0000f138       ??_C@_0BF@OOHOMBOF@ios_base?3?3eofbit?5set?$AA@ 0000000180032138     curtaincontrol.obj
  0002:0000f150       ??_C@_06GGHJAEBN@static?$AA@ 0000000180032150     curtaincontrol.obj
  0002:0000f158       ??_C@_0M@NAFBJCNP@example?4txt?$AA@ 0000000180032158     curtaincontrol.obj
- 0002:0000f168       ??_C@_0BF@HEBGOFON@?4?4?1?4?4?1hello?9world?4py?$AA@ 0000000180032168     curtaincontrol.obj
+ 0002:0000f168       ??_C@_0BB@JKIOKJLM@?4?1hello?9world?4py?$AA@ 0000000180032168     curtaincontrol.obj
  0002:0000f180       ??_C@_07MCAEHCHI@python?5?$AA@ 0000000180032180     curtaincontrol.obj
  0002:0000f188       ??_C@_0BN@JHJCBENI@tried?5printing?5python?5string?$AA@ 0000000180032188     curtaincontrol.obj
  0002:0000f1a8       ??_C@_05LBOHBHFK@close?$AA@ 00000001800321a8     curtaincontrol.obj
