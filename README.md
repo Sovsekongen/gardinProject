@@ -7,7 +7,7 @@ Version 1
 - Send command to c++, that makes the curtains move up or down, from buttons - IN PROGRESS
 	- Receive commands from browser in C++. - DONE
 	- Send bluetooth signal to Arduino.
-	- Program Arduino to send proper output voltage and current to motor.
+	- Program Arduino to send proper output voltage and current to motor. - DONE
 
 Version 2
 - Import weather from DMI feed, daily update for area each morning.
