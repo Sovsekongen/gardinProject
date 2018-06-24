@@ -27,9 +27,9 @@ void writeMessege(char command[5])
     myFile.close();
 }
 
-void callPythonScript()
+void callPythonScript(std::string filename)
 {
-    std::string filename = "./hello-world.py";
+    //std::string filename = "./hello-world.py";
     std::string command = "python ";
     std::cout << "tried printing python string" << std::endl;
     command += filename;
@@ -43,7 +43,7 @@ void closeCurtain(const FunctionCallbackInfo<Value>& args)
 
     args.GetReturnValue().Set(retval);
     writeMessege(demo::closeCom);
-    callPythonScript();
+    callPythonScript("./turnOff.py");
 }
 
 void openCurtain(const FunctionCallbackInfo<Value>& args)
@@ -54,7 +54,7 @@ void openCurtain(const FunctionCallbackInfo<Value>& args)
 
     args.GetReturnValue().Set(retval);
     writeMessege(demo::openCom);
-    callPythonScript();
+    callPythonScript("./turnOn.py");
 }
 
 
