@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D85E5EA2-E27C-BAE2-2946-CE15375B12EE}</ProjectGuid>
+    <ProjectGuid>{C2C44EEE-28DE-4187-E908-23471CC199C8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>addon</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
