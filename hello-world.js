@@ -19,7 +19,7 @@ app.get('/close', function (req, res) {
 	console.log(addon.close());
 })
 
-var server = app.listen(8081, "192.168.1.67", function () {
+var server = app.listen(8081, function () {
    var host = server.address().address;
    var port = server.address().port;
 

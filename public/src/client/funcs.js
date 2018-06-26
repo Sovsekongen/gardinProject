@@ -18,7 +18,7 @@ function curtainControl(command)
 	{
 		$.ajax({
 		type: 'GET',
-		url: 'http://192.168.1.67:8081/open'
+		url: 'http://localhost:8081/open'
 		});
 		dir.src="../images/curtainsOpen.png";
 	}
@@ -26,7 +26,7 @@ function curtainControl(command)
 	{
 		$.ajax({
 		type: 'GET',
-		url: 'http://192.168.1.67:8081/close'
+		url: 'http://localhost:8081/close'
 		});
 		dir.src="../images/curtainsClosed.png";
 	}
