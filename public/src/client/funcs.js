@@ -59,12 +59,12 @@ function inputFile()
 {
     var tempVar;
     var fileDir = "../../../pythonScripts/temp.txt";
-    var tempDisp = document.getElementById('tempDisplayArea');
+    var tempDisp = document.getElementById('tempDisp');
     var reader = new FileReader();
     var blob = new File([fileDir], "temp.txt", {type: "text/plain"})
     //var blob = Blob(fileDir, "plain/text");
     reader.readAsText(blob);
     tempVar = reader.result;
 
-    tempDisp.innerText = tempVar;
+    tempDisp.innerHTML = tempVar;
 }
