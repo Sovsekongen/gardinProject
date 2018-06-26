@@ -66,5 +66,5 @@ function inputFile()
     reader.readAsText(blob);
     tempVar = reader.result;
 
-    tempDisp.innerHTML = tempVar;
+    tempDisp.innerText = tempVar;
 }
