@@ -61,7 +61,8 @@ function inputFile()
     var fileDir = ".../pythonScripts/temp.txt";
     var tempDisp = document.getElementById('tempDisplayArea');
     var reader = new FileReader();
-    var blob = Blob(fileDir, "plain/text");
+    var blob = new File([fileDir], "temp.txt", {type: "text/plain"})
+    //var blob = Blob(fileDir, "plain/text");
     reader.readAsText(blob);
     tempVar = reader.result;
 
