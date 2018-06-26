@@ -1,17 +1,18 @@
-Version 1
-- Import custom HTML, CSS and Javascript.
+Version 1 - DONE
+- Import custom HTML, CSS and Javascript. - DONE
 	- HTML - DONE
 	- Javascript - DONE
 	- CSS - DONE
 	- Make mobilefriendly HTML and CSS. - DONE
-- Send command to c++, that makes the curtains move up or down, from buttons - IN PROGRESS
+- Send command to c++, that makes the curtains move up or down, from buttons - DONE
 	- Receive commands from browser in C++. - DONE
-	- Send bluetooth signal to Arduino.
+	- Send bluetooth signal to Arduino. - DONE
 	- Program Arduino to send proper output voltage and current to motor. - DONE
 
 Version 2
 - Import weather from DMI feed, daily update for area each morning.
 	- Seven week cast in table?
+- Install temperature sensors in apartment.
 - Make slider for optimized control of curtains
 	- Add variable box (0-100) to determine how much the curtain is rolled up or down, where 0 is fully open and 100 is fully closed.
 - Add controls to control webpage layout.
@@ -29,8 +30,6 @@ Version 4
 
 Version 5
 	- Add sensors to humidty
-	- Temperature sensor to inside and outside of the flat
-	
 	
 Version ...?
 	- Make controls to turn on the heat in the flat and monitor the temperature.
