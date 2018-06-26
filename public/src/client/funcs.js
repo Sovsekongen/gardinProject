@@ -54,3 +54,16 @@ function changeClassMenu(id, id2)
     p2.style.display = "none";
   }
 }
+
+function inputFile()
+{
+    var tempVar;
+    var fileDir = ".../pythonScripts/temp.txt";
+    var tempDisp = document.getElementById('tempDisplayArea');
+    var reader = new FileReader();
+    var blob = Blob(fileDir, "plain/text");
+    reader.readAsText(blob);
+    tempVar = reader.result;
+
+    tempDisp.innerText = tempVar;
+}
