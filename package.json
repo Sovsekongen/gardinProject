@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Sovsekongen/gardinProject#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "python-shell": "^0.5.0"
   }
 }

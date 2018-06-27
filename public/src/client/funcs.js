@@ -1,3 +1,5 @@
+const address = 'localhost';
+
 if (typeof jQuery === "undefined") {
     var script = document.createElement('script');
     script.src = 'http://code.jquery.com/jquery-latest.min.js';
@@ -18,7 +20,7 @@ function curtainControl(command)
 	{
 		$.ajax({
 		type: 'GET',
-		url: 'http://localhost:8081/open'
+		url: 'http://' + address + ':8081/open'
 		});
 		dir.src="../images/curtainsOpen.png";
 	}
@@ -26,7 +28,7 @@ function curtainControl(command)
 	{
 		$.ajax({
 		type: 'GET',
-		url: 'http://localhost:8081/close'
+		url: 'http://' + address + ':8081/close'
 		});
 		dir.src="../images/curtainsClosed.png";
 	}
@@ -55,16 +57,13 @@ function changeClassMenu(id, id2)
   }
 }
 
-function inputFile()
+function inputTemp()
 {
-    var tempVar;
-    var fileDir = "../../../pythonScripts/temp.txt";
-    var tempDisp = document.getElementById('tempDisp');
-    var reader = new FileReader();
-    var blob = new File([fileDir], "temp.txt", {type: "text/plain"})
-    //var blob = Blob(fileDir, "plain/text");
-    reader.readAsText(blob);
-    tempVar = reader.result;
-
-    tempDisp.innerText = tempVar;
+    $.get( "/temp", function( data ) {
+        var tempDisp = document.getElementById('tempDisp');
+        var name;
+        console.log(data.name);
+        name = data.name;
+        tempDisp.innerHTML = name;
+    });
 }
