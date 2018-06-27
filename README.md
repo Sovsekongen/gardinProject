@@ -13,6 +13,8 @@ Version 2
 - Import weather from DMI feed, daily update for area each morning.
 	- Seven week cast in table?
 - Install temperature sensors in apartment.
+	- Import information to server - DONE
+	- Add HTML to support
 - Make slider for optimized control of curtains
 	- Add variable box (0-100) to determine how much the curtain is rolled up or down, where 0 is fully open and 100 is fully closed.
 - Add controls to control webpage layout.
