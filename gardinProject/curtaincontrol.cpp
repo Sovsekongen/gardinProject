@@ -43,7 +43,7 @@ void closeCurtain(const FunctionCallbackInfo<Value>& args)
 
     args.GetReturnValue().Set(retval);
     writeMessege(demo::closeCom);
-    callPythonScript("./turnOff.py");
+    callPythonScript("./pythonScripts/turnOff.py");
 }
 
 void openCurtain(const FunctionCallbackInfo<Value>& args)
@@ -54,7 +54,7 @@ void openCurtain(const FunctionCallbackInfo<Value>& args)
 
     args.GetReturnValue().Set(retval);
     writeMessege(demo::openCom);
-    callPythonScript("./turnOn.py");
+    callPythonScript("./pythonScripts/turnOn.py");
 }
 
 
