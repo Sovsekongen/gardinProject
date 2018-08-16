@@ -28,5 +28,10 @@ void loop()
       digitalWrite(13, LOW);
       digitalWrite(14, LOW);
     }
+    else
+    {
+      digitalWrite(13, LOW);
+      digitalWrite(13, LOW);
+    }
   }
 }

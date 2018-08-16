@@ -25,14 +25,6 @@ app.get("/temp", function(req, res){
        res.json({name: message});
     });
     pyshell.end();
-/*
-    fs.readFile("pythonScripts/temp.txt", 'utf8', function (err, data) {
-        if (err)
-        {
-            return console.log(err);
-        }
-        res.json({name: data});
-    });*/
 });
 
 var server = app.listen(8081, function () {
