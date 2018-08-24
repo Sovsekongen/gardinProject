@@ -20,7 +20,7 @@ app.get('/close', function (req, res) {
 });
 
 app.get("/temp", function(req, res){
-    var pyshell = new pShell('pythonScripts/getTemperature.py');
+    var pyshell = new pShell('pythonScripts/checkTemp.py');
     pyshell.on('message', function(message){
        res.json({name: message});
     });
