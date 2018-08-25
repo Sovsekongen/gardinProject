@@ -1,37 +1,50 @@
-int command = 0;
+#include <SoftwareSerial.h>
+SoftwareSerial mySerial(5, 4);
+
 void setup() 
 {
   Serial.begin(9600);
-  pinMode(13, OUTPUT);
-  pinMode(14, OUTPUT);
+  mySerial.begin(9600);
+  
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  digitalWrite(2, LOW);
+  digitalWrite(3, LOW);
 }
 
 void loop() 
 {
-  if(Serial.available() > 0)
+  String Data = "";
+  char character;
+  while (mySerial.available())
   {
-    command = Serial.read();
-    Serial.print(command);
-    Serial.print("/n");
-    if(command == 1)
+    char character = mySerial.read();
+
+      Data.concat(character);
+      Serial.print("Received: ");
+      Serial.println(Data);
+
+      if(Data == "1")
     {
-       digitalWrite(13, HIGH);
-       digitalWrite(14, LOW);
+      digitalWrite(3, HIGH);
+      digitalWrite(2, LOW);
+      delay(65333);
     }
-    else if(command == 2)
+    else if(Data == "2")
     {
-       digitalWrite(13, LOW);
-       digitalWrite(14, HIGH); 
+      digitalWrite(3, LOW);
+      digitalWrite(2, HIGH);
+      delay(66355);
     }
-    else if(command == 0)
+    else if(Data == "0")
     {
-      digitalWrite(13, LOW);
-      digitalWrite(14, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(2, LOW);
     }
     else
     {
-      digitalWrite(13, LOW);
-      digitalWrite(13, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(2, LOW);
     }
   }
 }
