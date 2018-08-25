@@ -1,4 +1,4 @@
-const address = 'localhost';
+const address = '192.168.1.67';
 
 if (typeof jQuery === "undefined") {
     var script = document.createElement('script');

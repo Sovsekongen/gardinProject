@@ -1,6 +1,7 @@
 const addon = require('./build/Release/addon');
 const fs = require("fs");
 const pShell = require("python-shell");
+require('console-stamp')(console, '[HH:MM:ss.l]');
 
 var express = require('express');
 var app = express();
@@ -12,11 +13,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/open', function (req, res) {
-	console.log(addon.open());
+	//console.log(addon.open());
 });
 
 app.get('/close', function (req, res) {
-	console.log(addon.close());
+	//console.log(addon.close());
 });
 
 app.get("/temp", function(req, res){
@@ -27,7 +28,7 @@ app.get("/temp", function(req, res){
     pyshell.end();
 });
 
-var server = app.listen(8081, function () {
+var server = app.listen(8081, "192.168.1.67", function () {
    var host = server.address().address;
    var port = server.address().port;
 
