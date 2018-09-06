@@ -3,6 +3,7 @@
 import posix
 from fcntl import ioctl
 import time
+from updateSQLSensor import update_val
 
 class AM2320:
   I2C_ADDR = 0x5c
@@ -84,5 +85,7 @@ class AM2320:
 
 am2320 = AM2320(1)
 (t,h) = am2320.readSensor()
-print t
+update_val('tempRoom', t)
+update_val('humRoom', h)
+print t, h
 
