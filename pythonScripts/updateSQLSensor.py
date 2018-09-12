@@ -31,10 +31,10 @@ def update_val(sensorname, sensorval):
 		cursor.close()
 		con.close()
 
-def update_stat(sensorval, name):
-	query = """INSERT INTO roomTemp (rec, val, name) VALUES (%s, %s, %s);"""
+def update_stat(sensorval, name, sensorhum):
+	query = """INSERT INTO roomTemp (rec, val, name, valH) VALUES (%s, %s, %s, %s);"""
 	
-	data = (datetime.datetime.now(), sensorval, name)
+	data = (datetime.datetime.now(), sensorval, name, sensorhum)
 	
 	try:
 		con = mysql.connector.connect(user="viktorpi", password="Preacher-123",

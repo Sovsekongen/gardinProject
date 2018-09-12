@@ -8,5 +8,5 @@ am2320 = AM2320(1)
 update_val('tempRoom', t)
 update_val('humRoom', h)
 
-update_stat(t, 'tempRoom')
-clean_stat()
+update_stat(t, 'tempRoom', h)
+#clean_stat()
