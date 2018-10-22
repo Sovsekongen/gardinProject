@@ -1,7 +1,7 @@
 const addon = require('./build/Release/addon');
 const fs = require("fs");
 const pShell = require("python-shell");
-require('console-stamp')(console, '[HH:MM:ss.l]');
+const php = require("php");
 
 var express = require('express');
 var app = express();
@@ -9,7 +9,7 @@ var app = express();
 app.use(express.static('public'));
 
 app.get('/', function (req, res) {
-   res.sendFile('index.html', {root: __dirname + "/public/templates/"});
+   res.sendFile('phpSQLC.html', {root: __dirname + "/public/templates/"});
 });
 
 app.get('/open', function (req, res) {
@@ -28,7 +28,7 @@ app.get("/temp", function(req, res){
     pyshell.end();
 });
 
-var server = app.listen(8081, "192.168.1.67", function () {
+var server = app.listen(8081, function () {
    var host = server.address().address;
    var port = server.address().port;
 

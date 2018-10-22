@@ -2,7 +2,403 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2fdaa4-9a4e-4473-9321-7408c1bdca4c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/.deps/Release/addon.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/.deps/Release/obj.target/addon.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/.deps/Release/obj.target/addon/gardinProject/curtaincontrol.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/addon.exp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/addon.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/addon.lib" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/addon.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/addon.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/addon.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/addon.node" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/addon.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/addon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/addon.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj.target/addon.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj.target/addon/gardinProject/curtaincontrol.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/CL.1440.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/addon.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/addon.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/addon.write.1u.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/addon.write.1u.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.delete.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.delete.32.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.delete.46.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.delete.61.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.delete.78.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.14.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.15.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.23.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.25.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.26.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.27.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.28.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.32.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.44.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.46.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.61.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.7.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.78.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.read.9.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.write.25.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.write.32.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.write.44.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.write.46.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.write.61.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link-VCTIP.write.78.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/addon.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/curtaincontrol.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/curtaincontrol.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj/addon/win_delay_load_hook.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/obj/addon/win_delay_load_hook.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/addon.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/addon.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/build/addon.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/binding.sln" beforeDir="false" afterPath="$PROJECT_DIR$/build/binding.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/build/config.gypi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/.idea/node-console-stamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/.idea/node-console-stamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/defaults.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/defaults.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/.bin/dateformat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/ansi-styles/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/ansi-styles/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/ansi-styles/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/ansi-styles/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/escape-string-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/escape-string-regexp/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/escape-string-regexp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/escape-string-regexp/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/has-ansi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/has-ansi/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/has-ansi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/has-ansi/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/strip-ansi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/strip-ansi/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/strip-ansi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/strip-ansi/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/supports-color/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/supports-color/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/supports-color/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/node_modules/supports-color/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/chalk/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/bin/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/lib/dateformat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/get-stdin/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/get-stdin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/get-stdin/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/camelcase-keys/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/camelcase-keys/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/camelcase-keys/node_modules/camelcase/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/camelcase-keys/node_modules/camelcase/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/camelcase-keys/node_modules/camelcase/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/camelcase-keys/node_modules/camelcase/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/camelcase-keys/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/camelcase-keys/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/decamelize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/decamelize/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/decamelize/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/decamelize/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/node_modules/array-find-index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/node_modules/array-find-index/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/node_modules/array-find-index/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/node_modules/array-find-index/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/currently-unhandled/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/signal-exit/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/signal-exit/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/signal-exit/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/signal-exit/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/signal-exit/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/node_modules/signal-exit/signals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/loud-rejection/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/map-obj/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/map-obj/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/map-obj/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/map-obj/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/example/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/all_bool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/bool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/dash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/default_bool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/dotted.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/kv_short.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/long.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/num.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/parse_modified.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/short.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/stop_early.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/unknown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/minimist/test/whitespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/lib/extract_description.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/lib/fixer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/lib/make_warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/lib/normalize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/lib/safe_format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/lib/typos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/lib/warning_messages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/hosted-git-info/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/hosted-git-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/hosted-git-info/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/hosted-git-info/git-host-info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/hosted-git-info/git-host.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/hosted-git-info/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/hosted-git-info/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules/builtin-modules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/node_modules/builtin-modules/static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/is-builtin-module/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/semver/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/semver/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/semver/bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/semver/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/semver/range.bnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/semver/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids/deprecated.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-exceptions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-exceptions/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-exceptions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-license-ids/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-license-ids/deprecated.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-license-ids/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/node_modules/spdx-license-ids/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/scan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/node_modules/validate-npm-package-license/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/normalize-package-data/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/object-assign/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/object-assign/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/object-assign/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/object-assign/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/path-exists/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/path-exists/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/path-exists/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/path-exists/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/pinkie-promise/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/pinkie-promise/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/pinkie-promise/node_modules/pinkie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/pinkie-promise/node_modules/pinkie/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/pinkie-promise/node_modules/pinkie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/pinkie-promise/node_modules/pinkie/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/pinkie-promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/node_modules/pinkie-promise/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/find-up/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/graceful-fs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/graceful-fs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/graceful-fs/fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/graceful-fs/graceful-fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/graceful-fs/legacy-streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/graceful-fs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/graceful-fs/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules/is-arrayish/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules/is-arrayish/.istanbul.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules/is-arrayish/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules/is-arrayish/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules/is-arrayish/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules/is-arrayish/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules/is-arrayish/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/node_modules/is-arrayish/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/node_modules/error-ex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/vendor/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/parse-json/vendor/unicode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pify/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pify/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pinkie-promise/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pinkie-promise/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pinkie-promise/node_modules/pinkie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pinkie-promise/node_modules/pinkie/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pinkie-promise/node_modules/pinkie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pinkie-promise/node_modules/pinkie/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pinkie-promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/pinkie-promise/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/strip-bom/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/strip-bom/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/strip-bom/node_modules/is-utf8/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/strip-bom/node_modules/is-utf8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/strip-bom/node_modules/is-utf8/is-utf8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/strip-bom/node_modules/is-utf8/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/strip-bom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/node_modules/strip-bom/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/load-json-file/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/graceful-fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/legacy-streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pify/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pify/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/node_modules/pinkie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/node_modules/pinkie/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/node_modules/pinkie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/node_modules/pinkie/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/node_modules/read-pkg/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/read-pkg-up/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/.bin/strip-indent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/node_modules/number-is-nan/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/node_modules/number-is-nan/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/node_modules/number-is-nan/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/node_modules/number-is-nan/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/node_modules/repeating/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/indent-string/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/strip-indent/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/strip-indent/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/strip-indent/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/strip-indent/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/node_modules/strip-indent/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/redent/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/trim-newlines/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/trim-newlines/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/trim-newlines/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/node_modules/trim-newlines/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/node_modules/meow/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/test/test_dayofweek.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/test/test_formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/test/test_isoutcdatetime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/test/weekofyear/test_weekofyear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/dateformat/test/weekofyear/test_weekofyear.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/merge/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/merge/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/merge/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/merge/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/merge/merge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/merge/merge.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/node_modules/merge/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/stderr.log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/stderr.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/stdout.log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/stdout.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/console-stamp/stdout_stderr.log" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/console-stamp/stdout_stderr.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/logger/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/logger/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/logger/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/example/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/example/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/long.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/long.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/short.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/short.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/whitespace.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/whitespace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/templates/phpSQLC.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/templates/phpSQLC.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,20 +421,35 @@
     <session id="-1096927615">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="74" />
+          <entry key="html" value="163" />
+          <entry key="js" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="74" />
+          <entry key="HTML" value="163" />
+          <entry key="JavaScript" value="33" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -46,17 +457,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-world.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="510">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/templates/phpSQLC.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -64,7 +484,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/src/client/funcs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="680">
               <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
             </state>
           </provider>
@@ -81,8 +501,9 @@
         <option value="$PROJECT_DIR$/startServer.bat" />
         <option value="$PROJECT_DIR$/pythonScripts/temp.txt" />
         <option value="$PROJECT_DIR$/public/src/client/funcs.js" />
-        <option value="$PROJECT_DIR$/hello-world.js" />
         <option value="$PROJECT_DIR$/public/templates/index.html" />
+        <option value="$PROJECT_DIR$/hello-world.js" />
+        <option value="$PROJECT_DIR$/public/templates/phpSQLC.html" />
       </list>
     </option>
   </component>
@@ -113,7 +534,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,13 +556,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hello-world.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -156,6 +579,27 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Node.js.hello-world.js">
+    <configuration name="phpSQLC.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/gardinProject/public/templates/phpSQLC.html">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="hello-world.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="hello-world.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hello-world.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.phpSQLC.html" />
+      <item itemvalue="Node.js.hello-world.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.hello-world.js" />
+        <item itemvalue="JavaScript Debug.phpSQLC.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -174,23 +618,24 @@
       <workItem from="1530099572891" duration="5479000" />
       <workItem from="1533937157709" duration="14000" />
       <workItem from="1535194671373" duration="358000" />
+      <workItem from="1536771219941" duration="1419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24178000" />
+    <option name="totallyTimeSpent" value="25597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17966281" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17966281" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -232,24 +677,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/src/client/funcs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="680">
           <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/phpSQLC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
