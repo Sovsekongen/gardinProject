@@ -1,0 +1,38 @@
+<?php
+require_once('db_connect.php');
+$db = new DB_CONNECT();
+$name = $_GET['name'];
+$result = mysqli_query($db->myCon, "SELECT value FROM sensor WHERE name = '$name'");
+
+$rowData = mysqli_fetch_array($result);
+$data = $rowData[0];
+
+if($data)
+{
+	echo $data;
+}
+
+/*
+if (mysqli_connect_errno($con)) 
+{
+	echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+$name = $_GET['name'];
+$result = mysqli_query($con,"SELECT value FROM sensor WHERE name = '$name'");
+$row = mysqli_fetch_array($result);
+$data = $row[0];
+
+if($data)
+{
+	echo $data;
+}
+
+mysqli_close($con);  */
+
+$date1 = $_GET['date1'];
+$date2 = $_GET['date2'];
+$nameArr = $_GET['nameArr'];
+require_once('db_connect.php');
+	$db = new DB_CONNECT();
+	if($nameArr == "emp

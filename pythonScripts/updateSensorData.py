@@ -4,14 +4,10 @@ import mysql.connector
 from datetime import timedelta
 import datetime
 
-def update_val(sensorname, sensorval):	
-	query = """UPDATE sensor SET value = %s WHERE name = %s"""
-	queryTime = """UPDATE sensor SET time = %s WHERE name = %s"""
-	queryDate = """UPDATE sensor SET lastu = %s WHERE name = %s"""
+def update_val(sensorname, tempVal, humVal):	
+	query = """UPDATE sensorData SET tempVal = %s, humVal = %s WHERE location = %s"""
 	
-	data = (sensorval, sensorname)
-	time = (datetime.datetime.now().strftime('%H:%M:%S'), sensorname)
-	date = (datetime.datetime.now().strftime('%Y-%m:%d'), sensorname)
+	data = (tempVal, humVal, sensorname)
 	
 	try:
 		con = mysql.connector.connect(user="viktorpi", password="Preacher-123",
@@ -19,8 +15,6 @@ def update_val(sensorname, sensorval):
 		
 		cursor = con.cursor()
 		cursor.execute(query, data)
-		cursor.execute(queryTime, time)
-		cursor.execute(queryDate, date)
 		
 		con.commit()
 		

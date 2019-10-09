@@ -87,5 +87,5 @@ am2320 = AM2320(1)
 (t,h) = am2320.readSensor()
 update_val('tempRoom', t)
 update_val('humRoom', h)
-print t, h
+print(t, h)
 
